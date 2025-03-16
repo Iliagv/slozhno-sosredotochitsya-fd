@@ -190,6 +190,12 @@ h4.title__text {
   outline: 1px solid var(--focus-visible-link-color, #f1b2ce);
 }
 
+.content__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .gallery_container {
   display: grid;
   grid-template-columns: 1fr;
@@ -282,12 +288,6 @@ img {
 
   .concentration-design {
     grid-column: span 2;
-  }
-
-  .content__wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
   }
 
   .gallery_container {
